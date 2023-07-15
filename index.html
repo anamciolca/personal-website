@@ -62,17 +62,15 @@
                 <form name="contact" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact">
                     <div class="form-control">
-                        <input type="text" placeholder="John Doe" />
-                        <div>
-                            <div class="form-control">
-                                <input type="text" placeholder="Your message">
-                            </div>
-                            <div class="form-control">
-                                <input type="text" placeholder="john@email.com">
-                            </div>
-                            <input type="submit" value="Send" class="btn">
-                        </div>
+                        <input type="text" name="name" placeholder="John Doe" />
                     </div>
+                    <div class="form-control">
+                        <input type="text" name="message" placeholder="Your message">
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="email" placeholder="john@email.com">
+                    </div>
+                    <input type="submit" value="Send" class="btn">
                 </form>
             </div>
         </div>
