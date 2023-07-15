@@ -1,0 +1,14 @@
+:root {
+    --primary-color: linear-gradient(to right, #6e7376, #8B7B8B);
+    --secondary-color: #015249;
+    --primary-text-color: #FBF5E6;
+    --secondary-text-color: #FBF5E6;
+}
+
+body {
+    background-image: var(--primary-color);
+}
+
+.projects {
+    background-image: var(--primary-color);
+}

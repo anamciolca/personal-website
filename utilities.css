@@ -1,0 +1,52 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #404040;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+p.thicker {
+    font-weight: bolder;
+}
+
+.btn:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #817f7f;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #333;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.8);
+}
